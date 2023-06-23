@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+h3 {
+    font-size: 1.75rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+h4 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+h5 {
+    font-size: 1.25rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+header {
+    height: 300px;
+    background-image: url('../img/logo1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navigation {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.navigation a:last-child {
+    margin-right: 0;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Стилі для контейнерів */
+.container {
+    display: flex;
+    height: auto;
+}
+
+.left-container {
+    flex-basis: 20%;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+.right-container {
+    flex-basis: 80%;
+    background-color: lightblue;
+    padding: 20px;
+}
+
+/* Стилі для кнопок з галочками */
+.checkbox-button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.block-img{
+    height: 350px;
+    width: 200px;
+}
